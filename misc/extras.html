@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.jpg" type="image/x-icon">
+    <title>Extras</title>
+</head>
+<body>
+    <h1>Misc page</h1>
+    <p>
+        Aqui se incluyen distintos elementos que no era posible enlazar en
+        otro sitio. Sin embargo tendrán su respectiva explicación.
+    </p>
+    <br>
+    <div style="width: 500px;">
+        <h2>Video Tag</h2>
+        <p>
+            Un tag diseñado para incluir videos en las páginas web.
+            Muy usado para mostrar contenido audiovisual en las páginas
+            a pesar de que incluir un video embebido alojado en otras
+            plataformas es bastante común también.
+        </p>
+        <video width="320" height="240" autoplay>
+            <source src="/images/videoplayback.mp4" type="video/mp4">
+            Your browser doesn't support this tag. Please upgrade it!
+        </video>
+        <br>
+        <h2>SVG tag</h2>
+        <p>
+            <em><b>S</b>calable <b>V</b>ector <b>G</b>raphics (<b>SVG</b>)</em> es un formato ampliamente usado
+            para definir gráficos con funciones matemáticas con el fin de mantener
+            su calidad a pesar de reescalar sus dimensiones. Por tanto, se usa el tag
+            SVG para incluir este tipo de contenido.
+        </p>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
+        <h2>Datalist tag</h2>
+        <p>
+            Un tag usado para tener una lista dropdown con valores predefinidos
+            a un campo de input. Muy usado para dar distintas opciones al usuario
+            por obvias razones. Este tag por si solo no elimina la posibilidad de
+            los usuarios de ingresar valores distintos a los sugeridos por el
+            desarrollador.
+        </p>
+        <form>
+            <label for="browser">Elije tu color favorito: </la>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Rojo">
+                <option value="Verde">
+                <option value="Azul">
+                <option value="Blanco">
+                <option value="Negro">
+            </datalist>
+        </form>
+        <h2>Caracteres especiales</h2>
+        <p>
+            Existen 4 caracteres especiales básicos en HTML
+            <ul>
+                <li>&amp; - Define caracteres especiales</li>
+                <li>&quot; - Define el inicio y final de una cadena</li>
+                <li>&lt; - Define el inicio de un tag</li>
+                <li>&gt; - Define el cierre de un tag</li>
+            </ul>
+        </p>
+
+    </div>
+    <br>
+    <a href="/index.html">Volver</a>
+
+</body>
+</html>
